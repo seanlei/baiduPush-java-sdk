@@ -16,4 +16,4 @@
 
 操作示例：
 
-    $ git clone git://github.com/gotgithub/helloworld.git
+    $ git clone git://github.com/twolfteam/baiduPush-java-sdk.git
