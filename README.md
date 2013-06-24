@@ -1,5 +1,10 @@
 这是项目 [BaiduPush-java-sdk](https://github.com/twolfteam/baiduPush-java-sdk) ，欢迎访问。
 
+####下载地址
+* jar文件：http://pan.baidu.com/share/link?shareid=1274491658&uk=2198476538
+* javadoc：http://pan.baidu.com/share/link?shareid=1275319994&uk=2198476538
+* source文件： http://pan.baidu.com/share/link?shareid=1276174568&uk=2198476538
+
 ####注意事项：
 * 目前功能是对 《REST API》 单封装，细节功能请参考官方文档
 * 该程序对android、iso端完美支持，其中iso只支持单播消息
