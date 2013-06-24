@@ -1,9 +1,9 @@
 这是项目 [BaiduPush-java-sdk](https://github.com/twolfteam/baiduPush-java-sdk) ，欢迎访问。
 
 ####下载地址
-* jar文件：http://pan.baidu.com/share/link?shareid=1274491658&uk=2198476538
-* javadoc：http://pan.baidu.com/share/link?shareid=1275319994&uk=2198476538
-* source文件： http://pan.baidu.com/share/link?shareid=1276174568&uk=2198476538
+* jar文件:<a href="http://pan.baidu.com/share/link?shareid=1274491658&amp;uk=2198476538" target ="_blank">jar包下载</a>
+* javadoc：<a href="http://pan.baidu.com/share/link?shareid=1275319994&amp;uk=2198476538" target ="_blank">javadoc下载</a>
+* source文件： <a href="http://pan.baidu.com/share/link?shareid=1276174568&amp;uk=2198476538" target ="_blank">sources下载</a>
 
 ####注意事项：
 * 目前功能是对 《REST API》 单封装，细节功能请参考官方文档
