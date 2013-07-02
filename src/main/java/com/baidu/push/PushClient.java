@@ -42,7 +42,7 @@ public interface PushClient {
 
 	/**
 	 * 推送消息，该接口可用于推送单个人、一群人、所有人以及固定设备的使用场景。
-	 * 目前iso只支持单播消息, 只支持notify，并且消息类型要严格符合apple的apns格式
+	 * 目前ios只支持单播消息, 只支持notify，并且消息类型要严格符合apple的apns格式
 	 * @see <a href="http://developer.baidu.com/wiki/index.php?title=docs/cplat/push/api/list#push_msg">官方文档</a>
 	 * @param request 推送消息请求
 	 * @return
@@ -121,7 +121,7 @@ public interface PushClient {
 	PushResponse<FetchTagBean> queryUserTags(QueryUserTagsRequest request);
 
 	/**
-	 * 初始iso证书信息
+	 * 初始ios证书信息
 	 * @see <a href="http://developer.baidu.com/wiki/index.php?title=docs/cplat/push/api/list#init_app_ioscert">官方文档</a>
 	 * @param request 初始证书信息的请求
 	 * @return 这个地方如果不抛出异常，正常返回request_id就表明初始化成功
@@ -129,7 +129,7 @@ public interface PushClient {
 	PushResponse<Empty> initIosCert(IosCertRequest request);
 	
 	/**
-	 * 更新iso证书信息
+	 * 更新ios证书信息
 	 * @see <a href="http://developer.baidu.com/wiki/index.php?title=docs/cplat/push/api/list#update_app_ioscert">官方文档</a>
 	 * @param request 更新证书信息的请求
 	 * @return 这个地方如果不抛出异常，正常返回request_id就表明初始化成功
@@ -138,9 +138,9 @@ public interface PushClient {
 
 	
 	/**
-	 * 查询iso证书信息
+	 * 查询ios证书信息
 	 * 如果查询的绑定关系与channel_id无关，则不需要传递channel_id参数
-	 * 这个请求IsoCert参数将会被忽略
+	 * 这个请求iosCert参数将会被忽略
 	 * @see <a href="http://developer.baidu.com/wiki/index.php?title=docs/cplat/push/api/list#query_app_ioscert">官方文档</a>
 	 * @param request 查询证书信息的请求
 	 * @return 这个地方如果不抛出异常，正常返回request_id就表明初始化成功
@@ -148,9 +148,9 @@ public interface PushClient {
 	PushResponse<IosCert> queryIosCert(IosCertRequest request);
 
 	/**
-	 * 删除iso证书
+	 * 删除ios证书
 	 * @see <a href="http://developer.baidu.com/wiki/index.php?title=docs/cplat/push/api/list#delete_app_ioscert">官方文档</a>
-	 * @param request 删除iso证书的请求
+	 * @param request 删除ios证书的请求
 	 * @return 这个地方如果不抛出异常，正常返回request_id就表明初始化成功
 	 */
 	PushResponse<Empty> deleteIosCert(IosCertRequest request);
