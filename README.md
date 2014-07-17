@@ -379,11 +379,11 @@
 ## 版本库地址
 
 
-* HTTP协议: `https://github.com/twolfteam/baiduPush-java-sdk.git`
-* Git协议: `git://github.com/twolfteam/baiduPush-java-sdk.git` 
+* HTTP协议: `https://github.com/seanlei/baiduPush-java-sdk.git`
+* Git协议: `git://github.com/seanlei/baiduPush-java-sdk.git` 
 
 ## 克隆版本库
 
 操作示例：
 
-    $ git clone git://github.com/twolfteam/baiduPush-java-sdk.git
+    $ git clone git://github.com/seanlei/baiduPush-java-sdk.git
